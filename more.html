@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- 이걸 붙이면 다양한 fontasome을 가져다가 사용할 수 있음.  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Find</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+      <div class="header__column">
+        <!--plane icon  -->
+        <i class="fa fa-plane"></i>  <!--클래스명 fontasome에서 fas로 되어있으면 깨짐 , 반영후 반영되었는지 확인.-->
+        <!--wifi icon  -->
+        <i class="fa fa-wifi"></i>
+
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
+      <div class="header__column">
+        <!--  moon icon-->
+          <i class="fa fa-moon-o"></i>
+        <!--  blue icon-->
+          <i class="fa fa-bluetooth-b"></i>
+        <!--  battery icon-->
+        <span class="header__battery">66% <i class="fa fa-battery-full"></i> </span>
+      </div>
+      </div>
+       <div class="header__bottom">
+
+        <div class="header__column">
+          <span class="header__text">More </span>
+        </div>
+        <div class="header__column">
+          <i class="fa fa-cog fa-lg"></i>
+        </div>
+       </div>
+    </header>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab">
+        <i class="fa fa-user"></i>
+        <span class="tab-bar-title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fa fa-comment"></i>
+        <span class="tab-bar-title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fa fa-search"></i>
+        <span class="tab-bar-title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fa fa-ellipsis-h"></i>
+        <span class="tab-bar-title">More</span>
+      </a>
+    </nav>
+  </body>
+</html>
