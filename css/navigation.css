@@ -1,0 +1,38 @@
+.tab-bar{
+  background-color: #f7f7f7;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-top: 1px solid #c1c1c1;
+  padding: 10px 30px 5px 30px;
+
+}
+/* 아이콘은 블록으로 설정해야함. */
+.tab-bar .tab-bar__tab {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #c1c1c1;
+}
+/* 네이게이션 설정 */
+.tab-bar .tab-bar__tab i{
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* 탭바 제목 폰트 */
+.tab-bar .tab-bar-title{
+  font-size: 10px;
+}
+
+/* 선택된 아이콘 색깔 */
+.tab-bar .tab-bar__tab--selected{
+  color: #523737;
+}
