@@ -5,6 +5,11 @@
   position: fixed;
   width: 100%;
   top:0px;
+  z-index: 2;
+}
+
+.top-header a{
+  color : white;
 }
 
 .top-header .header__top,
@@ -13,6 +18,8 @@
   justify-content: space-between;
 }
 
+
+
 .top-header .header__top{
   margin-bottom: 15px;
   font-size: 12px;
@@ -20,10 +27,15 @@
 
 .top-header .header__bottom{
   margin: 0 10px;
+
 }
 
 .top-header .header__column{
   width: 33%;
+}
+
+.top-header .header__bottom .header__column:first-child{
+  color: rgba(255,255,255,0.5);
 }
 /* last-child 는 모든 칼럼들 중에 마지막 칼럼 의미. 여기서는 배터리 */
 .top-header .header__column:last-child{
